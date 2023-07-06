@@ -1,0 +1,47 @@
+1)
+    memory trace                    output
+    int item = 72;
+    int top = 14;                   Index of your item is 11
+    int bottom = 0;
+    int middle = (14 + 0)/2 = 7;
+    ary[middle] = 55;
+    bottom = 7 + 1 = 8;
+    middle = (14 + 8)/2 = 11;
+    ary[middle] = 72;
+
+2)
+    memory trace                    output
+    int item = 41;                  Index of your item is 4
+    int top = 14;
+    int bottom = 0;
+    int middle = (14 + 0)/2 = 7;
+    ary[middle] = 55;
+    top = 7 - 1 = 6;
+    middle = (6 + 0)/2 = 3;
+    ary[middle] = 34;
+    bottom = 3 + 1 = 4;
+    middle = (6 + 4)/2 = 5;
+    ary[middle] = 49;
+    top = 5 - 1 = 4;
+    middle = (4 + 4)/2 = 4;
+    ary[middle] = 41;
+
+3)
+    memory trace                    output
+    int item = 62;                  Item no found
+    int top = 14;
+    int bottom = 0;
+    int middle = (14 + 0)/2 = 7;
+    ary[middle] = 55;
+    bottom = 7 + 1 = 8;
+    middle = (14 + 8)/2 = 11;
+    ary[middle] = 72;
+    top = 11 - 1 = 10;
+    middle = (10 + 8)/2 = 9;
+    ary[middle] = 60;
+    bottom = 9 + 1 = 10;
+    middle = (10 + 10)/2 = 10;
+    ary[middle] = 67;
+    top = 10 - 1 = 9;
+    top < bottom;
+    return -1
